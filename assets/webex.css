@@ -66,6 +66,7 @@ input.webex-solveme.webex-correct,
 .webex-incorrect span::before,
 .webex-incorrect + .webex-icon::after {
   content: "\274C  ";
+  font-family: Arial, sans-serif;
 }
 
 .webex-correct span::before,
