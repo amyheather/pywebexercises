@@ -1,7 +1,7 @@
 ---
 title: "Exercises"
 authors:
-  - name: Ms Amy Heather
+  - name: Amy Heather
     url: https://github.com/amyheather
     orcid: 0000-0002-6596-3479
     affiliation: Peninsula Collaboration for Health Operational Research and Data Science (PenCHORD), University of Exeter Medical School
@@ -12,9 +12,16 @@ format:
     embed-resources: true 
 ---
 
+This page explains how to set up your quarto page to use webexercises (i.e. content of the front matter), and then demonstrates:
+
+* Multiple choice questions (MCQs).
+* Long MCQs.
+* True or false questions.
+* Checked sections.
+
 ## Front matter
 
-To include MCQ in our quarto site, we first need to include the following in the front matter of our `.qmd` file:
+To include exercises in our quarto site, we first need to include the following in the front matter of our `.qmd` file:
 
 ```
 format: 
@@ -24,7 +31,7 @@ format:
     embed-resources: true 
 ```
 
-We then import the `mcq()` and `longmqc()` functions.
+We then import the exercise functions we are going to use.
 
 ```{python}
 from pywebexercises.exercises import mcq, longmcq, torf
@@ -132,7 +139,9 @@ You can also include `.webex-box` to draw a box around the section.
 :::
 ```
 
-For example:
+For example...
+
+### Using `webex-check` and `webex-box`
 
 :::{.webex-check .webex-box}
 
@@ -153,6 +162,48 @@ What is a baby sheep called?
 longmcq({
     'lamb': 1,
     'calf': 0
+})
+```
+
+:::
+
+### Just using `webex-check`
+
+:::{.webex-check}
+
+What is a baby dog called?
+
+```{python}
+#| echo: false
+longmcq({
+    'kitten': 0,
+    'puppy': 1
+})
+```
+
+What is a baby sheep called?
+
+```{python}
+#| echo: false
+longmcq({
+    'lamb': 1,
+    'calf': 0
+})
+```
+
+:::
+
+### Just using `webex-box`
+
+:::{.webex-box}
+
+What is a baby dog called?
+
+```{python}
+#| echo: false
+longmcq({
+    'kitten': 0,
+    'puppy': 1
 })
 ```
 
