@@ -11,14 +11,14 @@
     "href": "pages/exercises.html",
     "title": "Exercises",
     "section": "",
-    "text": "To include MCQ in our quarto site, we first need to include the following in the front matter of our .qmd file:\nformat: \n  html:\n    css: [../assets/webex.css]\n    include-after-body: [../assets/webex.js]\n    embed-resources: true \nWe then import the mcq() and longmqc() functions.\n\nfrom pywebexercises.exercises import mcq, longmcq, torf\n\nWhen using these functions, set #| echo: false to prevent the code from showing in your document."
+    "text": "This page explains how to set up your quarto page to use webexercises (i.e. content of the front matter), and then demonstrates:"
   },
   {
     "objectID": "pages/exercises.html#front-matter",
     "href": "pages/exercises.html#front-matter",
     "title": "Exercises",
-    "section": "",
-    "text": "To include MCQ in our quarto site, we first need to include the following in the front matter of our .qmd file:\nformat: \n  html:\n    css: [../assets/webex.css]\n    include-after-body: [../assets/webex.js]\n    embed-resources: true \nWe then import the mcq() and longmqc() functions.\n\nfrom pywebexercises.exercises import mcq, longmcq, torf\n\nWhen using these functions, set #| echo: false to prevent the code from showing in your document."
+    "section": "Front matter",
+    "text": "Front matter\nTo include exercises in our quarto site, we first need to include the following in the front matter of our .qmd file:\nformat: \n  html:\n    css: [../assets/webex.css]\n    include-after-body: [../assets/webex.js]\n    embed-resources: true \nWe then import the exercise functions we are going to use.\n\nfrom pywebexercises.exercises import mcq, longmcq, torf\n\nWhen using these functions, set #| echo: false to prevent the code from showing in your document."
   },
   {
     "objectID": "pages/exercises.html#mcq",
@@ -46,6 +46,6 @@
     "href": "pages/exercises.html#checked-sections",
     "title": "Exercises",
     "section": "Checked sections",
-    "text": "Checked sections\nThese are created by making a webex-check section, which will add a button that will only display feedback when pressed.\nYou can also include .webex-box to draw a box around the section.\n:::{.webex-check .webex-box}\n\n# Question/s here\n\n:::\nFor example:\n\nWhat is a baby dog called?\n\n\n kitten puppy\n\n\nWhat is a baby sheep called?\n\n\n lamb calf"
+    "text": "Checked sections\nThese are created by making a webex-check section, which will add a button that will only display feedback when pressed.\nYou can also include .webex-box to draw a box around the section.\n:::{.webex-check .webex-box}\n\n# Question/s here\n\n:::\nFor example…\n\nUsing webex-check and webex-box\n\nWhat is a baby dog called?\n\n\n kitten puppy\n\n\nWhat is a baby sheep called?\n\n\n lamb calf\n\n\n\n\n\nJust using webex-check\n\nWhat is a baby dog called?\n\n\n kitten puppy\n\n\nWhat is a baby sheep called?\n\n\n lamb calf\n\n\n\n\n\nJust using webex-box\n\nWhat is a baby dog called?\n\n\n kitten puppy"
   }
 ]
