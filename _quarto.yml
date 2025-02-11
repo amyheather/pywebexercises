@@ -6,15 +6,10 @@ project:
 website:
   title: "pywebexercises"
   navbar:
+    search: true
+    left:
+      - index.qmd
+      - pages/exercises.qmd
     tools:
       - icon: github
         href: https://github.com/amyheather/pywebexercises
-  sidebar:
-    contents:
-      - index.qmd
-      - docs/mcq.qmd
-
-format:
-  html:
-    theme: cosmo
-    toc: true
