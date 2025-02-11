@@ -121,19 +121,8 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#pywebexercises" id="toc-pywebexercises" class="nav-link active" data-scroll-target="#pywebexercises">pywebexercises</a>
-  <ul class="collapse">
-  <li><a href="#guidance" id="toc-guidance" class="nav-link" data-scroll-target="#guidance">📙 Guidance</a></li>
-  <li><a href="#set-up" id="toc-set-up" class="nav-link" data-scroll-target="#set-up">🛠️ Set up</a></li>
-  <li><a href="#linting" id="toc-linting" class="nav-link" data-scroll-target="#linting">🔎 Linting</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -170,37 +159,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="pywebexercises" class="level1">
-<h1>pywebexercises</h1>
-<p><img src="https://img.shields.io/badge/-python-black?style=for-the-badge&amp;logoColor=white&amp;logo=python&amp;color=3776AB.png" class="img-fluid" alt="Python"> <img src="https://img.shields.io/badge/-Quarto-black?style=for-the-badge&amp;logoColor=white&amp;logo=quarto&amp;color=0A0A0A.png" class="img-fluid" alt="Quarto"> <img src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" class="img-fluid" alt="Licence"></p>
-<p>Python adaptation of the R webexercises package.</p>
-<p>This repository is based on <a href="https://github.com/PsyTeachR/webexercises">webexercises</a> by Dale Barr and Lisa DeBruine:</p>
+<p>Python adaptation of the R <a href="https://github.com/PsyTeachR/webexercises">webexercises</a> package by Dale Barr and Lisa DeBruine:</p>
 <blockquote class="blockquote">
 <p>Barr D, DeBruine L (2023). webexercises: Create Interactive Web Exercises in ‘R Markdown’ (Formerly ‘webex’). R package version 1.1.0.9000, https://github.com/psyteachr/webexercises.</p>
 </blockquote>
-<p>It has been adapted so that webexercises can be created using Python. These modifications have been made by <a href="https://github.com/amyheather">Amy Heather</a> <a href="https://orcid.org/0000-0002-6596-3479"><img src="assets/orcid.png" class="img-fluid" alt="ORCID ID"></a>.</p>
-<p>The modified work is also licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
-<section id="guidance" class="level2">
-<h2 class="anchored" data-anchor-id="guidance">📙 Guidance</h2>
-<p>The <strong>python functions</strong> which work with webexercises are available as a package within <code>pywebexercises/</code>.</p>
-<p>For <strong>example implementations</strong>, refer to <code>docs/</code>. This can also be viewed at: <a href="https://amyheather.github.io/pywebexercises/" class="uri">https://amyheather.github.io/pywebexercises/</a>.</p>
-</section>
-<section id="set-up" class="level2">
-<h2 class="anchored" data-anchor-id="set-up">🛠️ Set up</h2>
-<p>The environment used is provided in an <code>environment.yaml</code> file which can be installed as a <code>conda</code> environment:</p>
-<pre><code>conda env create --file environment.yaml
-conda activate</code></pre>
-<p>The provided <code>environment.yaml</code> file is a snapshot of the environment used when creating the repository, including <strong>specific package versions</strong>. You can <strong>downgrade or update these packages</strong> if necessary, but be sure to test that everything continues to work as expected after any updates.</p>
-<p>As an alternative, a <code>requirements.txt</code> file is provided which can be used to set up the environment with <code>virtualenv</code>. This is used by GitHub actions, which run much faster with a virtual environment than a conda environment.</p>
-</section>
-<section id="linting" class="level2">
-<h2 class="anchored" data-anchor-id="linting">🔎 Linting</h2>
-<p>To lint all <code>.py</code> and <code>.ipynb</code> files, run:</p>
-<pre><code>bash lint.sh</code></pre>
+<p>It has been adapted so that webexercises can be created using Python. These modifications have been made by <a href="https://github.com/amyheather">Amy Heather</a> <a href="https://orcid.org/0000-0002-6596-3479"><img src="assets/orcid.png" class="img-fluid" alt="ORCID ID"></a>. The modified work is also licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+<p>Please use the sidebar to navigate to examples and explanations of how to use the <code>pywebexercises</code> functions.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
