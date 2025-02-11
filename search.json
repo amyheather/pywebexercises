@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "docs/mcq.html",
+    "href": "docs/mcq.html",
+    "title": "Web exercises",
+    "section": "",
+    "text": "from pywebexercises.exercises import mcq, longmcq\n\nWhich is the correct answer?\n\nmcq({\n    'Wrong': 0,\n    'Wrong again': 0,\n    'Right': 1,\n    'Wrong too': 0\n})\n\nWrongWrong againRightWrong too\n\n\nWhich is the correct answer?\n\nlongmcq({\n    'Wrong': 0,\n    'Wrong again': 0,\n    'Right': 1,\n    'Wrong too': 0\n})\n\n Wrong Wrong again Right Wrong too",
+    "crumbs": [
+      "Web exercises"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Python adaptation of the R webexercises package.\nThis repository is based on webexercises by Dale Barr and Lisa DeBruine:\n\nBarr D, DeBruine L (2023). webexercises: Create Interactive Web Exercises in ‘R Markdown’ (Formerly ‘webex’). R package version 1.1.0.9000, https://github.com/psyteachr/webexercises.\n\nIt has been adapted so that webexercises can be created using Python. These modifications have been made by Amy Heather .\nThe modified work is also licensed under CC BY-SA 4.0.\n\n\nThe python functions which work with webexercises are available within pywebexercises/.\nFor example implementations, refer to docs/.\n\n\n\nThe environment used is provided in an environment.yaml file which can be installed as a conda environment:\nconda env create --file environment.yaml\nconda activate\nThe provided environment.yaml file is a snapshot of the environment used when creating the repository, including specific package versions. You can downgrade or update these packages if necessary, but be sure to test that everything continues to work as expected after any updates.\nAs an alternative, a requirements.txt file is provided which can be used to set up the environment with virtualenv. This is used by GitHub actions, which run much faster with a virtual environment than a conda environment.\n\n\n\nTo lint all .py and .ipynb files, run:\nbash lint.sh",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#guidance",
+    "href": "index.html#guidance",
+    "title": "Overview",
+    "section": "",
+    "text": "The python functions which work with webexercises are available within pywebexercises/.\nFor example implementations, refer to docs/.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#set-up",
+    "href": "index.html#set-up",
+    "title": "Overview",
+    "section": "",
+    "text": "The environment used is provided in an environment.yaml file which can be installed as a conda environment:\nconda env create --file environment.yaml\nconda activate\nThe provided environment.yaml file is a snapshot of the environment used when creating the repository, including specific package versions. You can downgrade or update these packages if necessary, but be sure to test that everything continues to work as expected after any updates.\nAs an alternative, a requirements.txt file is provided which can be used to set up the environment with virtualenv. This is used by GitHub actions, which run much faster with a virtual environment than a conda environment.",
+    "crumbs": [
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "index.html#linting",
+    "href": "index.html#linting",
+    "title": "Overview",
+    "section": "",
+    "text": "To lint all .py and .ipynb files, run:\nbash lint.sh",
+    "crumbs": [
+      "Overview"
+    ]
+  }
+]
