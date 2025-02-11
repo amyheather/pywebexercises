@@ -14,6 +14,12 @@ It has been adapted so that webexercises can be created using Python. These modi
 
 The modified work is also licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
+## 📙 Guidance
+
+The **python functions** which work with webexercises are available as a package within `pywebexercises/`.
+
+For **example implementations**, refer to `docs/`. This can also be viewed at: <https://amyheather.github.io/pywebexercises/>.
+
 ## 🛠️ Set up
 
 The environment used is provided in an `environment.yaml` file which can be installed as a `conda` environment:
