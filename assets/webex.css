@@ -65,13 +65,13 @@ input.webex-solveme.webex-correct,
 
 .webex-incorrect span::before,
 .webex-incorrect + .webex-icon::after {
-  content: "\274C  ";
+  content: "\274C\00A0\00A0";
   font-family: Arial, sans-serif;
 }
 
 .webex-correct span::before,
 .webex-correct + .webex-icon::after {
-  content: "\2705  ";
+  content: "\2705\00A0\00A0";
 }
 
 
