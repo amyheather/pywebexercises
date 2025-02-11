@@ -25,7 +25,7 @@ We then import the `mcq()` and `longmqc()` functions.
 from pywebexercises.exercises import mcq, longmcq
 ```
 
-When using these functions, set `echo = FALSE` to prevent the code from showing in your document. On this page, it has been included to show how the questions were generated.
+When using these functions, set `#| echo: false` to prevent the code from showing in your document.
 
 ## MCQ
 
