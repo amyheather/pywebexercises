@@ -73,3 +73,23 @@ def longmcq(opts):
 
     # Print as raw HTML
     return HTML(html)
+
+
+def torf(answer):
+    """
+    Creates a true-or-false question.
+
+    Arguments:
+        answer (boolean)
+            Either set to True or False.
+    """
+    # Verify that user has provided either True or False
+    if not isinstance(answer, bool):
+        raise ValueError('Must set to True or False.')
+
+    # Create options list of True or False, marking answer
+    opts = {True: 0, False: 0}
+    opts[answer] = 1
+
+    # Return MCQ rendering of the true or false options
+    return mcq(opts)
