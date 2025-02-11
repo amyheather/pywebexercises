@@ -18,7 +18,7 @@
     "href": "pages/exercises.html#front-matter",
     "title": "Exercises",
     "section": "Front matter",
-    "text": "Front matter\nTo include exercises in our quarto site, we first need to include the following in the front matter of our .qmd file:\nformat: \n  html:\n    css: [../assets/webex.css]\n    include-after-body: [../assets/webex.js]\n    embed-resources: true \nWe then import the exercise functions we are going to use.\n\nfrom pywebexercises.exercises import mcq, longmcq, torf\n\nWhen using these functions, set #| echo: false to prevent the code from showing in your document."
+    "text": "Front matter\nTo include exercises in our quarto site, we first need to include the following in the front matter of our .qmd file:\nformat: \n  html:\n    css: [../assets/webex.css]\n    include-after-body: [../assets/webex.js]\n    embed-resources: true \nWe then import the exercise functions we are going to use.\n\n# pylint: disable=missing-module-docstring\nfrom pywebexercises.exercises import mcq, longmcq, torf\n\nWhen using these functions, set #| echo: false to prevent the code from showing in your document."
   },
   {
     "objectID": "pages/exercises.html#mcq",
