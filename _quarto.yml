@@ -1,0 +1,20 @@
+project:
+  type: website
+  preview:
+    browser: true
+
+website:
+  title: "pywebexercises"
+  navbar:
+    tools:
+      - icon: github
+        href: https://github.com/amyheather/pywebexercises
+  sidebar:
+    contents:
+      - index.qmd
+      - docs/mcq.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
