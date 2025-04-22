@@ -9,6 +9,7 @@ website:
     search: true
     left:
       - index.qmd
+      - pages/setup.qmd
       - pages/exercises.qmd
     tools:
       - icon: github

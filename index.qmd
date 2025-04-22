@@ -13,4 +13,7 @@ Python adaptation of the R [webexercises](https://github.com/PsyTeachR/webexerci
 
 It has been adapted so that webexercises can be created using Python. These modifications have been made by [Amy Heather](https://github.com/amyheather) [![ORCID ID](assets/orcid.png)](https://orcid.org/0000-0002-6596-3479). The modified work is also licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-Please use the sidebar to navigate to examples and explanations of how to use the `pywebexercises` functions.
+Please use the navigation bar to view:
+
+* **Set-up**. How to get started using pywebexercises, installing the necessary `.js` and `.css` files, and including the necessary lines in the quarto front matter.
+* **Exercises**. A demonstration of the possible exercise functions.
