@@ -1,5 +1,12 @@
 <script>
 
+/*
+Acknowledgments. This file is from webexercises:
+  Barr D, DeBruine L (2023). webexercises: Create Interactive Web Exercises in
+  'R Markdown' (Formerly 'webex'). R package version 1.1.0.9000,
+  https://github.com/psyteachr/webexercises.
+*/
+
 /* update total correct if #webex-total_correct exists */
 update_total_correct = function() {
   console.log("webex: update total_correct");

@@ -1,3 +1,10 @@
+/*
+Acknowledgments. This file is from webexercises:
+  Barr D, DeBruine L (2023). webexercises: Create Interactive Web Exercises in
+  'R Markdown' (Formerly 'webex'). R package version 1.1.0.9000,
+  https://github.com/psyteachr/webexercises.
+*/
+
 :root {
   --incorrect: #983E82;
   --incorrect_alpha: #edaddd;
