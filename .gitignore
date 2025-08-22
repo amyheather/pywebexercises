@@ -1,4 +1,1 @@
-/.quarto/
-_book/
-_site/
-__pycache__/
+__pycache__
