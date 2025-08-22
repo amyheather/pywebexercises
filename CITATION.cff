@@ -19,6 +19,5 @@ repository-code: >-
 abstract: >-
   Python adaptation of the R webexercises package.
 license: CC-BY-SA-4.0
-# TODO: Manually update with each GitHub release
 version: '0.1.0'
-date-released: '2025-02-11'
+date-released: '2025-08-22'

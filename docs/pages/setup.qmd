@@ -41,7 +41,7 @@ These files can also be copied from below:
 ## webex.js
 
 ```{.js}
-{{< include ../pywebexercises/assets/webex.js >}}
+{{< include ../../src/pywebexercises/assets/webex.js >}}
 ```
 
 :::
@@ -51,7 +51,7 @@ These files can also be copied from below:
 ## webex.css
 
 ```{.css}
-{{< include ../pywebexercises/assets/webex.css >}}
+{{< include ../../src/pywebexercises/assets/webex.css >}}
 ```
 
 :::
