@@ -4,4 +4,14 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "pywebexercises"
-dynamic = ["version", "description"]
+description = "Python adaptation of the R webexercises package."
+authors = [{name = "Amy Heather", email = "a.heather2@exeter.ac.uk"}]
+maintainers = [{name = "Amy Heather", email = "a.heather2@exeter.ac.uk"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+
+[project.urls]
+Home = "https://github.com/amyheather/pywebexercises"
+"Bug Reports" = "https://github.com/amyheather/pywebexercises/issues"
+Source = "https://github.com/amyheather/pywebexercises"
